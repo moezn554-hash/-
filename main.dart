@@ -54,7 +54,8 @@ class HomeScreen extends StatelessWidget {
       elevation: 4,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       child: InkWell(
-        onTap: () {
+       57 Navigator.push(context, MaterialPageRoute(builder: (context) => const Peugeot103Screen()));.
+
           // هنا نقدر نبرمج الانتقال للصفحة الخاصة بالقسم
         },
         borderRadius: BorderRadius.circular(16),
